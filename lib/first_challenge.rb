@@ -15,7 +15,11 @@ def first_challenge
 
   #your code here
   contacts.each do |key, value|
-    value
+    value.each do |key2, value2|
+      if value2.instance_of?(array)
+        value2.delete_if{|i| i=="strawberry"}
+      end
+    end
   end
 
 
