@@ -15,7 +15,7 @@ def first_challenge
 
   #your code here
   contacts.each do |key, value|
-  
+    value
   end
 
 
